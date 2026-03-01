@@ -18,7 +18,7 @@ The architecture is designed for scalability and efficiency, utilizing a high-pe
 
 The training infrastructure is built on a Ray cluster deployed on GKE, featuring a head node and multiple worker nodes. This setup allows for both collocated and non-collocated worker configurations. The diagram below illustrates a non-collocated setup where different workers run on separate nodes to optimize resource utilization.
 
-![Architecture Diagram](arch.png)
+![Architecture Diagram](images/architecture.png)
 
 #### Key Components:
 
@@ -46,7 +46,7 @@ The training infrastructure is built on a Ray cluster deployed on GKE, featuring
 
 The end-to-end process for fine-tuning and deploying a model follows a structured pipeline, ensuring reproducibility and iterative improvement.
 
-![Workflow Diagram](pipline.png)
+![Workflow Diagram](images/pipeline.png)
 
 #### Step-by-Step Process:
 

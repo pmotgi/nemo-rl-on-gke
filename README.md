@@ -7,6 +7,7 @@ This repository provides a comprehensive guide and toolkit for fine-tuning state
 The primary goal is to enhance model performance on specific tasks by applying the **GRPO (Generative Rejection Policy Optimization)** algorithm. This process has been tested with several leading models, including:
 
 *   **[Llama 3.1 (8B-it)](llama3_1_8b_it/README.md)**
+*   **[Gemma 3 (1B-it)](gemma3-1b-it/gemma3-1b-single-node-g4.md)**
 *   **[Gemma 3 (27B-it)](gemma3-27b-it/README.md)**
 *   **[Qwen 2.5 (1.5B-it)](qwen2_5_1_5b_it/README.md)**
 
